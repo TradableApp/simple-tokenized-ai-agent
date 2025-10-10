@@ -1,5 +1,5 @@
 {
-  "name": "tokenized-ai-agent",
+  "name": "simple-tokenized-ai-agent",
   "version": "1.0.0",
   "description": "Token-gated AI agent using Oasis ROFL. This repo connects an ERC-20 token to off-chain logic execution via a secure enclave (TDX), enabling trusted AI inference and verifiable on-chain payments.",
   "main": "index.js",
@@ -17,16 +17,16 @@
     "deploy:base-mainnet": "ENV_FILE=.env.base-mainnet npx hardhat run scripts/deploy.js --network base",
     "// --- ROFL: TESTNET WORKFLOWS (SAPPHIRE) ---": "---",
     "rofl:create:testnet": "oasis rofl create --network testnet --deployment testnet --account oasis_testnet",
-    "image:build:testnet": "docker build --platform linux/amd64 -t ghcr.io/tradableapp/tokenized-ai-agent:testnet -f Dockerfile.oracle .",
-    "image:push:testnet": "docker push ghcr.io/tradableapp/tokenized-ai-agent:testnet",
+    "image:build:testnet": "docker build --platform linux/amd64 -t ghcr.io/tradableapp/simple-tokenized-ai-agent:testnet -f Dockerfile.oracle .",
+    "image:push:testnet": "docker push ghcr.io/tradableapp/simple-tokenized-ai-agent:testnet",
     "rofl:set:testnet": "./scripts/rofl-set-secrets.sh testnet",
     "rofl:build:testnet": "cp compose.testnet.yaml compose.yaml && docker run --platform linux/amd64 --volume \"$(pwd)\":/src --volume ~/.docker:/root/.docker:ro -it ghcr.io/oasisprotocol/rofl-dev:main oasis rofl build --deployment testnet",
     "rofl:update:testnet": "npm run rofl:set:testnet && oasis rofl update --deployment testnet",
     "rofl:deploy:testnet": "oasis rofl deploy --deployment testnet",
     "// --- ROFL: TESTNET WORKFLOWS (BASE) ---": "---",
     "rofl:create:base-testnet": "oasis rofl create --network testnet --deployment base-testnet --account oasis_testnet",
-    "image:build:base-testnet": "docker build --platform linux/amd64 -t ghcr.io/tradableapp/tokenized-ai-agent:base-testnet -f Dockerfile.oracle .",
-    "image:push:base-testnet": "docker push ghcr.io/tradableapp/tokenized-ai-agent:base-testnet",
+    "image:build:base-testnet": "docker build --platform linux/amd64 -t ghcr.io/tradableapp/simple-tokenized-ai-agent:base-testnet -f Dockerfile.oracle .",
+    "image:push:base-testnet": "docker push ghcr.io/tradableapp/simple-tokenized-ai-agent:base-testnet",
     "rofl:set:base-testnet": "./scripts/rofl-set-secrets.sh base-testnet",
     "rofl:build:base-testnet": "cp compose.base-testnet.yaml compose.yaml && docker run --platform linux/amd64 --volume \"$(pwd)\":/src --volume ~/.docker:/root/.docker:ro -it ghcr.io/oasisprotocol/rofl-dev:main oasis rofl build --deployment base-testnet",
     "rofl:update:base-testnet": "npm run rofl:set:base-testnet && oasis rofl update --deployment base-testnet",
@@ -48,7 +48,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/TradableApp/tokenized-ai-agent.git"
+    "url": "git+https://github.com/TradableApp/simple-tokenized-ai-agent.git"
   },
   "keywords": [
     "Oasis",
@@ -62,9 +62,9 @@
   "author": "Tradable",
   "license": "Apache-2.0",
   "bugs": {
-    "url": "https://github.com/TradableApp/tokenized-ai-agent/issues"
+    "url": "https://github.com/TradableApp/simple-tokenized-ai-agent/issues"
   },
-  "homepage": "https://github.com/TradableApp/tokenized-ai-agent#readme",
+  "homepage": "https://github.com/TradableApp/simple-tokenized-ai-agent#readme",
   "type": "commonjs",
   "engines": {
     "node": ">=18.0.0",

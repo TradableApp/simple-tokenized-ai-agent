@@ -112,7 +112,7 @@ describe("EVM System Integration Test", function () {
       await time.increase(3601);
 
       // Anyone can call the keeper function to process refunds
-      // FIX: Use the correct singular function name 'processRefund' instead of 'processRefunds'.
+      // Use the correct singular function name 'processRefund' instead of 'processRefunds'.
       await agentEscrow.connect(deployer).processRefund(promptId);
 
       // Verify the funds were returned to the user

@@ -52,7 +52,7 @@ describe("EVMAIAgent (Upgradable)", function () {
 
     it("should revert if initialized with a zero address for the oracle", async function () {
       const { EVMAIAgent, deployer } = await loadFixture(deployAgentFixture);
-      // FIX: Check for the specific custom error from our contract.
+      // Check for the specific custom error from our contract.
       await expect(
         upgrades.deployProxy(EVMAIAgent, [
           domain,

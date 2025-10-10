@@ -456,7 +456,7 @@ describe("SapphireAIAgentEscrow", function () {
       await escrow.connect(user).initiatePrompt(PROMPT_TEXT);
       const promptId = 0;
 
-      // FIX: The test must assert that the transaction reverts with the correct error.
+      // The test must assert that the transaction reverts with the correct error.
       await expect(escrow.connect(deployer).processRefund(promptId)).to.be.revertedWithCustomError(
         escrow,
         "PromptNotRefundableYet",

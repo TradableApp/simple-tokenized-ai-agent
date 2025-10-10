@@ -11,7 +11,7 @@ services:
   oracle:
     build:
       dockerfile: ./Dockerfile.oracle
-    image: ghcr.io/tradableapp/tokenized-ai-agent:base-testnet
+    image: ghcr.io/tradableapp/simple-tokenized-ai-agent:base-testnet
     platform: linux/amd64
     entrypoint: /bin/sh -c 'node src/index.js --network baseSepolia --ollama-address http://ollama:11434'
     restart: on-failure

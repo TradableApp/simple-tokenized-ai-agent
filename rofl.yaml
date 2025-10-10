@@ -1,6 +1,6 @@
-name: tokenized-ai-agent
+name: simple-tokenized-ai-agent
 version: 0.1.0
-repository: https://github.com/TradableApp/tokenized-ai-agent
+repository: https://github.com/TradableApp/simple-tokenized-ai-agent
 author: Garrick Brown <admin@tradable.app>
 license: Apache-2.0
 tee: tdx

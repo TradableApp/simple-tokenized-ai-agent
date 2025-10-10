@@ -11,7 +11,7 @@ if [ -z "$1" ]; then
 fi
 
 COMPOSE_FILE=$1
-IMAGE_BASE_NAME="ghcr.io/tradableapp/tokenized-ai-agent"
+IMAGE_BASE_NAME="ghcr.io/tradableapp/simple-tokenized-ai-agent"
 
 # --- 1. SET VERSION ---
 # Get and display the current version from rofl.yaml

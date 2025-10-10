@@ -1,6 +1,6 @@
 # Tokenized AI Agent
 
-[![License](https://img.shields.io/github/license/TradableApp/tokenized-ai-agent.svg)](./LICENSE)
+[![License](https://img.shields.io/github/license/TradableApp/simple-tokenized-ai-agent.svg)](./LICENSE)
 [![Built with Oasis ROFL](https://img.shields.io/badge/built%20with-oasis%20rofl-7a00ff.svg)](https://docs.oasis.io/build/rofl/)
 
 > Token-gated AI agent using Oasis ROFL. This repo connects an ERC-20 token to off-chain logic execution via a secure enclave (TDX), enabling trusted AI inference and verifiable on-chain payments.
@@ -8,6 +8,9 @@
 ---
 
 ## 🧠 Overview
+
+> **Note:** This repository contains a simplified, single-conversation implementation of the AI Agent. It is provided as a learning resource. For the full, production-ready version with multi-conversation support, please see the main repository:
+> [TradableApp/tokenized-ai-agent](https://github.com/TradableApp/tokenized-ai-agent)
 
 This repository provides a production-ready integration between an on-chain ERC-20 token and Oasis ROFL, enabling:
 
@@ -37,8 +40,8 @@ User ➔ Smart Contract (ERC-20 gated) ➔ ROFL App (TEE) ➔ External AI (GCP/L
 ### 1. Clone the repo
 
 ```bash
-git clone https://github.com/TradableApp/tokenized-ai-agent.git
-cd tokenized-ai-agent
+git clone https://github.com/TradableApp/simple-tokenized-ai-agent.git
+cd simple-tokenized-ai-agent
 ```
 
 ### 2. Install dependencies
@@ -334,7 +337,7 @@ This is the primary command to start a new release. It is an interactive script 
 
 - Prompt you to enter the new version number (e.g., 0.2.0).
 - Update the `version:` field in `rofl.yaml`.
-- Build the Docker image with a version-specific tag (e.g., `ghcr.io/tradableapp/tokenized-ai-agent:0.2.0`).
+- Build the Docker image with a version-specific tag (e.g., `ghcr.io/tradableapp/simple-tokenized-ai-agent:0.2.0`).
 - Push the versioned image to the container registry.
 - Print the next steps for you to follow.
 
