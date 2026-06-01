@@ -67,14 +67,13 @@
   "homepage": "https://github.com/TradableApp/simple-tokenized-ai-agent#readme",
   "type": "commonjs",
   "engines": {
-    "node": ">=18.0.0",
-    "npm": ">=9.0.0"
+    "node": ">=18.0.0"
   },
   "dependencies": {
-    "@oasisprotocol/sapphire-contracts": "^0.2.14",
+    "@oasisprotocol/sapphire-contracts": "0.2.14",
     "@oasisprotocol/sapphire-ethers-v6": "^6.0.1",
-    "@openzeppelin/contracts": "^5.3.0",
-    "@openzeppelin/contracts-upgradeable": "^5.3.0",
+    "@openzeppelin/contracts": "5.4.0",
+    "@openzeppelin/contracts-upgradeable": "5.4.0",
     "axios": "^1.11.0",
     "chalk": "^4.1.2",
     "date-fns": "^4.1.0",
