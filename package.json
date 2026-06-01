@@ -81,7 +81,7 @@
     "eth-crypto": "^2.6.0",
     "inquirer": "^8.2.6",
     "inquirer-datepicker-prompt": "^0.4.3",
-    "ora": "^5.4.1",
+    "ora": "^9.4.0",
     "siwe": "^3.0.0"
   },
   "devDependencies": {
