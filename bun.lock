@@ -5,10 +5,10 @@
     "": {
       "name": "simple-tokenized-ai-agent",
       "dependencies": {
-        "@oasisprotocol/sapphire-contracts": "0.2.14",
+        "@oasisprotocol/sapphire-contracts": "0.2.16",
         "@oasisprotocol/sapphire-ethers-v6": "^6.0.1",
-        "@openzeppelin/contracts": "5.4.0",
-        "@openzeppelin/contracts-upgradeable": "5.4.0",
+        "@openzeppelin/contracts": "5.6.1",
+        "@openzeppelin/contracts-upgradeable": "5.6.1",
         "axios": "^1.11.0",
         "chalk": "^4.1.2",
         "date-fns": "^4.1.0",
@@ -245,15 +245,15 @@
 
     "@oasisprotocol/deoxysii": ["@oasisprotocol/deoxysii@0.0.6", "", {}, "sha512-TI51bIpChfsla9aRbjip6zvTbz6rpsqKgM7MqJvSfeFF6G5xLXQcbSC9u/1hOnOOazd7HaqA9NvaXQdeKCb3yw=="],
 
-    "@oasisprotocol/sapphire-contracts": ["@oasisprotocol/sapphire-contracts@0.2.14", "", { "dependencies": { "@openzeppelin/contracts": "^5.0.2" } }, "sha512-FYdJnHsnIBBME1Ggxc3pC1+NBa9HCaI/x4pDxSF2yBYbWvcFsd9M5+TJqP1BlZq6Z4D08v1+ahIcTzKF4YaGiw=="],
+    "@oasisprotocol/sapphire-contracts": ["@oasisprotocol/sapphire-contracts@0.2.16", "", { "dependencies": { "@openzeppelin/contracts": "^5.0.2" } }, "sha512-5Ii4IJEi6iVqNPGLiCrB1ZZWYfDmBicUbu7Wg04/t6Z840Q9H3KpRwh20k3EHparC39DHKwx6i8+g7rGzR5DWA=="],
 
     "@oasisprotocol/sapphire-ethers-v6": ["@oasisprotocol/sapphire-ethers-v6@6.0.1", "", { "dependencies": { "@oasisprotocol/sapphire-paratime": "^2.0.1", "ethers": "6.x" }, "peerDependencies": { "typescript": ">=5.0.4" }, "optionalPeers": ["typescript"] }, "sha512-JY1pKPByoboDNSQurP9Z0+QEvShK8Y9heqOjFQjhH6ZwYmiyJdhT+iJJvBtvsVzZ3SkFay0TXwQ+G5m+VBjJRA=="],
 
     "@oasisprotocol/sapphire-paratime": ["@oasisprotocol/sapphire-paratime@2.3.0", "", { "dependencies": { "@noble/hashes": "1.3.2", "@oasisprotocol/deoxysii": "0.0.6", "cborg": "1.10.2" } }, "sha512-TooQ+eGxz8kQJ4PavqkXxvjbRJw8V4TB/Nu5ptaMyclFFr+tCWXEpx01gpoRsUEEc9IRcEm4IfnBUqFnBcbt7w=="],
 
-    "@openzeppelin/contracts": ["@openzeppelin/contracts@5.4.0", "", {}, "sha512-eCYgWnLg6WO+X52I16TZt8uEjbtdkgLC0SUX/xnAksjjrQI4Xfn4iBRoI5j55dmlOhDv1Y7BoR3cU7e3WWhC6A=="],
+    "@openzeppelin/contracts": ["@openzeppelin/contracts@5.6.1", "", {}, "sha512-Ly6SlsVJ3mj+b18W3R8gNufB7dTICT105fJhodGAGgyC2oqnBAhqSiNDJ8V8DLY05cCz81GLI0CU5vNYA1EC/w=="],
 
-    "@openzeppelin/contracts-upgradeable": ["@openzeppelin/contracts-upgradeable@5.4.0", "", { "peerDependencies": { "@openzeppelin/contracts": "5.4.0" } }, "sha512-STJKyDzUcYuB35Zub1JpWW58JxvrFFVgQ+Ykdr8A9PGXgtq/obF5uoh07k2XmFyPxfnZdPdBdhkJ/n2YxJ87HQ=="],
+    "@openzeppelin/contracts-upgradeable": ["@openzeppelin/contracts-upgradeable@5.6.1", "", { "peerDependencies": { "@openzeppelin/contracts": "5.6.1" } }, "sha512-n4a/vfRs114lXyUdYg7pyY8LvFKWvCDF5lEcRRAVxap8g6ZEdLqm+9tmt2zTtRHcNMxTYp9y5t6KBof4tHp7Og=="],
 
     "@openzeppelin/defender-sdk-base-client": ["@openzeppelin/defender-sdk-base-client@2.7.1", "", { "dependencies": { "@aws-sdk/client-lambda": "^3.563.0", "amazon-cognito-identity-js": "^6.3.6", "async-retry": "^1.3.3", "axios": "^1.7.4" } }, "sha512-7gFCteA+V3396A3McgqzmirwmbPXuHJYN896O3AbsHX9XcxInN74C5Zv3tFHld0GmIX/VlaIvILNMhOpdISZjA=="],
 
@@ -1332,8 +1332,6 @@
     "@nomicfoundation/ignition-core/fs-extra": ["fs-extra@10.1.0", "", { "dependencies": { "graceful-fs": "^4.2.0", "jsonfile": "^6.0.1", "universalify": "^2.0.0" } }, "sha512-oRXApq54ETRj4eMiFzGnHWGy+zo5raudjuxN0b8H7s/RU2oW0Wvsx9O0ACRN/kRq9E8Vu/ReskGB5o3ji+FzHQ=="],
 
     "@nomicfoundation/ignition-core/lodash": ["lodash@4.17.21", "", {}, "sha512-v2kDEe57lecTulaDIuNTPy3Ry4gLGJ6Z1O3vE1krgXZNrsQ+LFTGHVxVjcXPs17LhbZVGedAJv8XZ1tvj5FvSg=="],
-
-    "@oasisprotocol/sapphire-contracts/@openzeppelin/contracts": ["@openzeppelin/contracts@5.6.1", "", {}, "sha512-Ly6SlsVJ3mj+b18W3R8gNufB7dTICT105fJhodGAGgyC2oqnBAhqSiNDJ8V8DLY05cCz81GLI0CU5vNYA1EC/w=="],
 
     "@openzeppelin/upgrades-core/@nomicfoundation/slang": ["@nomicfoundation/slang@0.18.3", "", { "dependencies": { "@bytecodealliance/preview2-shim": "0.17.0" } }, "sha512-YqAWgckqbHM0/CZxi9Nlf4hjk9wUNLC9ngWCWBiqMxPIZmzsVKYuChdlrfeBPQyvQQBoOhbx+7C1005kLVQDZQ=="],
 
