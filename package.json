@@ -70,11 +70,11 @@
     "node": ">=18.0.0"
   },
   "dependencies": {
-    "@oasisprotocol/sapphire-contracts": "0.2.14",
+    "@oasisprotocol/sapphire-contracts": "0.2.18",
     "@oasisprotocol/sapphire-ethers-v6": "^6.0.1",
-    "@openzeppelin/contracts": "5.4.0",
-    "@openzeppelin/contracts-upgradeable": "5.4.0",
-    "axios": "^1.11.0",
+    "@openzeppelin/contracts": "5.6.1",
+    "@openzeppelin/contracts-upgradeable": "5.6.1",
+    "axios": "^1.19.0",
     "chalk": "^4.1.2",
     "date-fns": "^4.1.0",
     "dotenv": "^17.0.1",
@@ -88,11 +88,11 @@
     "@nomicfoundation/hardhat-toolbox": "^6.1.0",
     "@openzeppelin/hardhat-upgrades": "^3.9.1",
     "chai": "^4.2.0",
-    "hardhat": "^2.26.3",
+    "hardhat": "^2.29.1",
     "hardhat-gas-reporter": "^2.3.0",
-    "prettier": "^3.6.2",
-    "prettier-plugin-solidity": "^2.0.0",
-    "solhint": "^6.0.0",
+    "prettier": "^3.9.6",
+    "prettier-plugin-solidity": "^2.4.1",
+    "solhint": "^6.2.4",
     "solidity-coverage": "^0.8.16"
   }
 }
