@@ -34,7 +34,7 @@
     "cbor": "^10.0.9",
     "dotenv": "^17.0.1",
     "eth-crypto": "^3.1.0",
-    "ethers": "^6.15.0",
+    "ethers": "^6.17.0",
     "node-fetch": "^3.3.2",
     "siwe": "^3.0.0",
     "uuid": "^11.1.0"
@@ -42,7 +42,7 @@
   "devDependencies": {
     "chai": "^5.2.1",
     "eslint": "^8.57.0",
-    "mocha": "^11.7.1",
+    "mocha": "^11.8.0",
     "nodemon": "^3.0.2",
     "sinon": "^21.0.0"
   }
